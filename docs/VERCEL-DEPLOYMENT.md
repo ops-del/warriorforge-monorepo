@@ -19,9 +19,9 @@ This guide will walk you through deploying the WarriorForge Automations platform
 
 2. **Configure Build Settings**
    - Framework Preset: Other
-   - Build Command: `cd client && npm install && npm run build`
-   - Output Directory: `client/dist`
-   - Install Command: `npm install --prefix server && npm install --prefix client`
+   - Build Command: `npm run build:frontend`
+   - Output Directory: `frontend/dist`
+   - Install Command: `npm install`
 
 3. **Add Environment Variables** (see section below)
 
@@ -104,7 +104,7 @@ We recommend using a managed PostgreSQL service:
 3. **Run Prisma Migrations**
    ```bash
    # After setting up DATABASE_URL
-   cd server
+   cd backend
    npx prisma migrate deploy
    npx prisma db seed
    ```

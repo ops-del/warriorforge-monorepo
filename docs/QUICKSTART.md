@@ -4,10 +4,10 @@
 
 ### Backend Setup
 
-1. **Open terminal in VS Code and navigate to server**
+1. **Open terminal in VS Code and navigate to backend**
 
    ```powershell
-   cd server
+   cd backend
    ```
 
 2. **Install dependencies**
@@ -25,7 +25,7 @@
    # Or manually in Explorer: duplicate .env.example and rename to .env
    ```
 
-4. **Edit `server/.env` with your settings**
+4. **Edit `backend/.env` with your settings**
 
    ```env
    PORT=4000
@@ -71,7 +71,7 @@
 1. **Open NEW terminal in VS Code**
 
    ```powershell
-   cd client
+   cd frontend
    ```
 
 2. **Install dependencies**

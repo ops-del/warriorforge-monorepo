@@ -14,9 +14,9 @@ Fast-track deployment guide for WarriorForge Automations on Vercel.
 **Framework Preset:** Other
 
 **Build Settings:**
-- Build Command: `cd client && npm install && npm run build`
-- Output Directory: `client/dist`
-- Install Command: `npm install --prefix server && npm install --prefix client`
+- Build Command: `npm run build:frontend`
+- Output Directory: `frontend/dist`
+- Install Command: `npm install`
 
 **Root Directory:** Leave empty (use root)
 
@@ -90,7 +90,7 @@ vercel login
 vercel link
 
 # Run migrations (if using Vercel Postgres or external DB)
-cd server
+cd backend
 npx prisma migrate deploy
 npx prisma db seed
 ```
