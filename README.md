@@ -44,6 +44,15 @@ To run both backend and frontend in development mode simultaneously:
 npm run dev
 ```
 
+**Note:** The concurrent execution uses `&` which works on Unix-like systems (Linux, macOS). On Windows, you may need to run them in separate terminals:
+- Terminal 1: `npm run dev:backend`
+- Terminal 2: `npm run dev:frontend`
+
+Alternatively, install a cross-platform tool like `concurrently` for better compatibility:
+```bash
+npm install --save-dev concurrently
+```
+
 ### Run Backend Only
 
 ```bash
