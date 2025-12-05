@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build:frontend",
+  "outputDirectory": "frontend/dist",
+  "framework": null,
+  "installCommand": "npm install",
+  "devCommand": null,
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/serverless"
+    }
+  ],
+  "functions": {
+    "api/serverless.ts": {
+      "runtime": "nodejs18.x",
+      "maxDuration": 10
+    }
+  }
+}
