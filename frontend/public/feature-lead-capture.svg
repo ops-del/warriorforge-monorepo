@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="featureGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0891B2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#featureGradient1)"/>
+  <circle cx="300" cy="200" r="80" fill="rgba(255,255,255,0.2)"/>
+  <path d="M 300 150 L 320 180 L 290 180 Z M 280 220 L 320 220 M 290 250 L 310 250" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="300" y="320" font-size="36" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">
+    Lead Capture
+  </text>
+</svg>
